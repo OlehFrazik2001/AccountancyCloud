@@ -1,0 +1,140 @@
+@media screen and (max-width: 480px) {
+    body {
+        width: 480px;
+    }
+
+    .wrap {
+        padding-top: 18px;
+    }
+
+    .top-right, .mid-mid-left, .mid-top-right, .u-pink-img, .bottom-items h4, .bot-img {
+        display: none;
+    }
+
+    .padding-left {
+        padding: 0 20px;
+    }
+
+    .mobile-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mobile-menu span {
+        background: #000;
+        height: 5px;
+        width: 50px;
+        display: block;
+        position: relative;
+
+    }
+
+    .mobile-menu span::before, .mobile-menu span::after {
+        content: '';
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        display: block;
+        background: #000;
+    }
+
+    .mobile-menu span::before {
+        top: -10px;
+    }
+
+    .mobile-menu span::after {
+        bottom: -10px;
+    }
+
+    .mid-top {
+        margin-top: 0;
+    }
+
+    h1 {
+        margin: 15px 0 5px;
+        font-size: 35px;
+    }
+
+    .mid-top-left p {
+        margin: 0 0 20px 0;
+    }
+
+    .mid-mid-right h2, .mid-bottom h2, .mid-pink h2, .u-mid h2, .u-bottom h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .three-in-row, button, .u-top, .u-bottom, .bottom-menu {
+        display: block;
+    }
+
+    button {
+        margin: auto;
+    }
+
+    .item div, .contacts a, .bottom-items, .bottom-img-h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .item {
+        margin-bottom: 20px;
+    }
+
+    .item h3 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .u-top img {
+        padding-top: 20px;
+        width: 440px;
+    }
+
+    .u-bottom {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .u-pink-butt {
+        padding-top: 20px;
+    }
+
+    .bottom {
+        padding: 20px;
+    }
+
+    .bottom-menu {
+        margin-bottom: 0;
+    }
+
+    .mid-mid {
+        margin-top: 30px;
+    }
+
+    .mid-bottom h2 {
+        padding: 30px 0 20px;
+
+    }
+
+    .pink-button {
+        margin-bottom: 30px;
+    }
+
+    .mid-pink {
+        padding: 20px;
+    }
+
+    .mid-pink h2 {
+        padding-top: 20px;
+    }
+
+    .u-top {
+        padding-top: 30px;
+    }
+
+    .u-mid {
+        margin-top: 0;
+    }
+}
